@@ -455,7 +455,9 @@ def main():
     wm = WavMod('intro.wav')
     wm.test()
     GAME.play()
-main()
+
+if __name__ == '__main__':
+    main()
 
 
 
